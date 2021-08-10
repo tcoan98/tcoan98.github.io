@@ -1,0 +1,114 @@
+body{
+    background-color: #100;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-image: repeating-radial-gradient(black,purple, 20%);
+    background-repeat: repeat;
+}
+
+.inner-triangle-b{
+    border-style: solid;
+    border-width: 0px 163.9px 284px 163.9px;
+    border-color:  transparent transparent skyblue transparent;
+    bottom:33.5%;
+    height:0px;
+    width:0px;
+    position:absolute;
+}
+.inner-triangle-blk{
+    border-style: solid;
+    border-width: 0px 144.3px 250px 144.3px;
+    border-color:  transparent transparent black transparent;
+    bottom:35%;
+    height:0px;
+    width:0px;
+    position:absolute;
+}
+
+.triangle{
+    border-style: solid;
+    border-width: 0px 173.2px 300 173.2px;
+    border-color:  transparent transparent white transparent;
+    bottom:33%;
+    height:0px;
+    width:0px;
+    position:absolute;
+}
+
+.light-beam{
+    height:10px;
+    width:800px;
+    left:-30px;
+    bottom: 250px;
+    rotate:-18deg;
+    background-color: white;
+    position:absolute;
+}
+
+.light-beam-r{
+    height:10px;
+    width:800px;
+    right:-95px;
+    bottom: 250px;
+    rotate:18deg;
+    background-color: red;
+    position:absolute;
+}
+
+.light-beam-o{
+    height:10px;
+    width:800px;
+    right:-95px;
+    bottom: 239.8px;
+    rotate:18deg;
+    background-color: orange;
+    position:absolute;
+}
+
+.light-beam-y{
+    height:10px;
+    width:800px;
+    right:-95px;
+    bottom: 230px;
+    rotate:18deg;
+    background-color: yellow;
+    position:absolute;
+    
+}
+
+.light-beam-g{
+    height:10px;
+    width:800px;
+    right:-95px;
+    bottom: 220px;
+    rotate:18deg;
+    background-color: green;
+    position:absolute;
+    
+}
+
+.light-beam-b{
+    height:10px;
+    width:800px;
+    right:-95px;
+    bottom: 210px;
+    rotate:18deg;
+    background-color: blue;
+    position:absolute;
+    
+}
+
+.light-beam-p{
+    height:10px;
+    width:800px;
+    right:-95px;
+    bottom: 200px;
+    rotate:18deg;
+    background-color: purple;
+    position:absolute;
+    
+}
